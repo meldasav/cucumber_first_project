@@ -52,6 +52,7 @@ public class CarvanaSteps {
             case "AUTO LOAN CALCULATOR":
                 Waiter.waitForVisibilityOfElement(driver,carvanaHomePage.autoLoanCalculatorLink,2);
                 carvanaHomePage.autoLoanCalculatorLink.click();
+                break;
         }
 
     }
