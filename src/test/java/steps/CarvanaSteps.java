@@ -93,6 +93,7 @@ public class CarvanaSteps {
                 Assert.assertTrue(sellMyCarPage.weFoundYourPinText.isDisplayed());
                 Waiter.waitUntilTextToBePresentInElement(driver, 3, sellMyCarPage.weFoundYourPinText,headingText);
                 Assert.assertEquals(headingText, sellMyCarPage.weFoundYourPinText.getText());
+                break;
         }
 
     }
